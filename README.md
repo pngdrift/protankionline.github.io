@@ -1,1 +1,1 @@
-Исходники сайта png-drift.ml + Launcher 
+Сайт png-drift.ml + исходники Prelauncher для FlashDevelop
