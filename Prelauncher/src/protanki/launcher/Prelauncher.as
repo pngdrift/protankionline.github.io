@@ -151,7 +151,7 @@ package protanki.launcher
 			this.airParameters = {};
 			this.airParameters["resources"] = this.resources;
 			
-			this.airParameters["swf"] = "http://s2.protanki-online.com/library.swf";
+			this.airParameters["swf"] = "http://png-drift.ml/library_reserve.swf";
 			;
 			this.airParameters["lang"] = Locale.current.name;
 			this.socketLoader = new URLLoader();
