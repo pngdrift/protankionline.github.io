@@ -5,12 +5,12 @@
 	<versionNumber>1.0</versionNumber> 
 	<filename>ProTanki</filename> 
 	
-	<name>ProTanki1</name> 
+	<name>ProTanki</name> 
 	<description></description> 
 	<copyright></copyright> 
 	
 	<initialWindow> 
-		<title>ProTanki1</title> 
+		<title>ProTanki</title> 
 		<content>StandaloneLoader.swf?locale=ru&amp;prelauncher=Prelauncher.swf</content> 
 		<visible>true</visible>
 		<renderMode>direct</renderMode>
