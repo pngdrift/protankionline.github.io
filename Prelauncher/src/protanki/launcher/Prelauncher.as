@@ -128,7 +128,7 @@ package protanki.launcher
 					SharedObject.getLocal("launcherStorage").data["ACTUAL_LIBRARY"] = false;
 				}
 			});
-			loader.load(new URLRequest("http:/png-drift.ml/library_version.state"));
+			loader.load(new URLRequest("http:/png-drift.ml/library_version.state?rand=" + Math.random()));
 			
 		
 		}

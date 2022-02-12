@@ -32,12 +32,12 @@
     </define>
     <verbose-stacktraces>true</verbose-stacktraces>
     <source-path append="true">
-      <path-element>C:\Users\Латыпов\Desktop\ProTanki\Prelauncher\src</path-element>
+      <path-element>C:\Users\Латыпов\Documents\GitHub\protankionline.github.io\Prelauncher\src</path-element>
       <path-element>C:\Games\flash\Library\AS3\classes</path-element>
     </source-path>
   </compiler>
   <file-specs>
-    <path-element>C:\Users\Латыпов\Desktop\ProTanki\Prelauncher\src\protanki\launcher\Prelauncher.as</path-element>
+    <path-element>C:\Users\Латыпов\Documents\GitHub\protankionline.github.io\Prelauncher\src\protanki\launcher\Prelauncher.as</path-element>
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
   <default-frame-rate>30</default-frame-rate>
