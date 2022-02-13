@@ -117,6 +117,7 @@ package protanki.launcher
 			loader.dataFormat = URLLoaderDataFormat.TEXT;
 			loader.addEventListener(Event.COMPLETE, function(event:Event):void
 			{
+				SharedObject.getLocal("launcherStorage").data["COMPLETE"] = true;
 				var data:String = event.target.data as String;
 				if (data == "actual")
 				{
@@ -128,7 +129,7 @@ package protanki.launcher
 					SharedObject.getLocal("launcherStorage").data["ACTUAL_LIBRARY"] = false;
 				}
 			});
-			loader.load(new URLRequest("http:/png-drift.ml/library_version.state2?rand=" + Math.random()));
+			loader.load(new URLRequest("http:/png-drift.ml/library_version.state?rand=" + Math.random()));
 						this.createGUI();
 
 			
@@ -257,7 +258,7 @@ package protanki.launcher
 			
 			this.airParameters = {};
 			this.airParameters["resources"] = this.resources;
-			if (SharedObject.getLocal("launcherStorage").data["UNLOCK_FPS"])
+			if (SharedObject.getLocal("launcherStorage").data["UNLOCK_FPS"] && SharedObject.getLocal("launcherStorage").data["ACTUAL_LIBRARY"])
 			{
 				this.airParameters["swf"] = this.libraryWithMod;
 			}

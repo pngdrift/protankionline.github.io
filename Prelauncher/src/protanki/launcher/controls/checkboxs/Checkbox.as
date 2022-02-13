@@ -59,13 +59,13 @@ package protanki.launcher.controls.checkboxs
 			addChildToCenter(button);
 			addChildToCenter(noButton);
 
-					noButton.visible = !SharedObject.getLocal("launcherStorage").data["ACTUAL_LIBRARY"];
+					noButton.visible = !SharedObject.getLocal("launcherStorage").data["ACTUAL_LIBRARY"] && SharedObject.getLocal("launcherStorage").data["COMPLETE"];
 				
 
 			
 			button.visible = !SharedObject.getLocal("launcherStorage").data["UNLOCK_FPS"];
 			
-			yesButton.visible = SharedObject.getLocal("launcherStorage").data["UNLOCK_FPS"];
+			yesButton.visible = SharedObject.getLocal("launcherStorage").data["UNLOCK_FPS"] && SharedObject.getLocal("launcherStorage").data["ACTUAL_LIBRARY"];
 			
 			addChild(textField);
 			addEventListener("mouseOver", onMouseOver);
