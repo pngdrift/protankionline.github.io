@@ -24,6 +24,7 @@ package protanki.launcher.controls.toppanel
 			super();
 			addChild(new TopPanelButton("game"));
 			addChild(new TopPanelButton("wiki"));
+			addChild(new TopPanelButton("ratings"));
 			addChild(new TopPanelButton("help"));
 		}
 		

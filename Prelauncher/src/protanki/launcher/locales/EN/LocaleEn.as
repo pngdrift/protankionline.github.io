@@ -1,5 +1,6 @@
 package protanki.launcher.locales.EN
 {
+	import flash.net.SharedObject;
 	import protanki.launcher.Locale;
 	import protanki.launcher.controls.bottompanel.PartnerLogo.PartnerLogo;
 	import protanki.launcher.locales.TextLinkPair;
@@ -19,7 +20,7 @@ package protanki.launcher.locales.EN
 			partners.push(PartnerLogo.TELEGRAM, "https://t.me/protanki_official");
 			game = new TextLinkPair("Game", "http://protanki-online.com/");
 			wiki = new TextLinkPair("Wiki", "http://wiki.protanki-online.com/");
-			ratings = new TextLinkPair("Ratings", "http://protanki-online.com/");
+			//ratings = new TextLinkPair("Classificações", "http://ratings.generaltanks.com/en/user/" + SharedObject.getLocal("name").data["userName"]);
 			help = new TextLinkPair("Information", "https://vk.com/@protanki_official-rubrika-vopros-otvet-ot-razrabotchikov-protanki");
 			materials = new TextLinkPair("Updates", "http://protanki-online.com/");
 			kits = new TextLinkPair("List of kits", "https://docs.google.com/spreadsheets/d/1ys4N2Mt6tLZTf85t9GeSrKxZIHN4Lb31t2si4nm3bGU/edit");

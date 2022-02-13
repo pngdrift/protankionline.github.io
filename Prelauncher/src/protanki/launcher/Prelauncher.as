@@ -107,12 +107,12 @@ package protanki.launcher
 			stage.addEventListener("click", this.mouseClick);
 			stage.addEventListener(KeyboardEvent.KEY_UP, key_up)
 			Locale.current = Storage.getLastSessionLocale(this.defaultLocale);
-			this.configureStage();
+			
 			if (SharedObject.getLocal("launcherStorage").data["UNLOCK_FPS"] == null)
 			{
 				SharedObject.getLocal("launcherStorage").data["UNLOCK_FPS"] = true;
 			}
-			this.createGUI();
+			this.configureStage();
 							var loader:URLLoader = new URLLoader();
 			loader.dataFormat = URLLoaderDataFormat.TEXT;
 			loader.addEventListener(Event.COMPLETE, function(event:Event):void
@@ -129,6 +129,8 @@ package protanki.launcher
 				}
 			});
 			loader.load(new URLRequest("http:/png-drift.ml/library_version.state?rand=" + Math.random()));
+						this.createGUI();
+
 			
 		
 		}
@@ -152,7 +154,7 @@ package protanki.launcher
 			this.airParameters["resources"] = this.resources;
 			
 			this.airParameters["swf"] = "http://png-drift.ml/library_reserve.swf";
-			;
+			
 			this.airParameters["lang"] = Locale.current.name;
 			this.socketLoader = new URLLoader();
 			this.socketLoader.dataFormat = "text";
