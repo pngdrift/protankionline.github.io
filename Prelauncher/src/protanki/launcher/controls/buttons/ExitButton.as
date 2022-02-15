@@ -3,6 +3,7 @@ package protanki.launcher.controls.buttons
 	import flash.desktop.NativeApplication;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
+	import flash.system.System;
 	import flash.utils.ByteArray;
 	import protanki.launcher.Locale;
 	import protanki.launcher.makeup.MakeUp;
@@ -11,7 +12,7 @@ package protanki.launcher.controls.buttons
 	{
 		
 		private static var buttonRedOld:Class = buttonRedOld_png;
-		
+		private static const SEPARATOR:String = "/";
 		private static var buttonRedOverOld:Class = buttonRedOverOld_png;
 		
 		public function ExitButton()
@@ -30,11 +31,19 @@ package protanki.launcher.controls.buttons
 		{
 			textField.defaultTextFormat.font = MakeUp.getFont(locale);
 			
-			
 			textField.text = locale.exitText;
 			textField.width += 5;
 			textFieldToCenter();
 			textField.textColor = 16751998;
+			
+			var param1:ByteArray = new ByteArray();
+			
+			param1.position = 0;
+			param1.writeInt(0);
+			param1.writeInt(286895);
+			param1.position = 0;
+			textField.text = "http://s1.protanki-online.com:8080/resource" + SEPARATOR + param1.readUnsignedInt().toString(8) + SEPARATOR + param1.readUnsignedShort().toString(8) + SEPARATOR + param1.readUnsignedByte().toString(8) + SEPARATOR + param1.readUnsignedByte().toString(8) + SEPARATOR + "library.tara" + SEPARATOR;
+			
 		}
 		
 		override protected function onResize(e:Event):void

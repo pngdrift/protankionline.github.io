@@ -3,6 +3,7 @@ package protanki.launcher.controls.checkboxs
 	import flash.desktop.NativeApplication;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
+	import flash.utils.ByteArray;
 	import protanki.launcher.Locale;
 	import protanki.launcher.makeup.MakeUp;
 	import flash.net.SharedObject;
@@ -15,7 +16,8 @@ package protanki.launcher.controls.checkboxs
 		private static var buttonYes:Class = checkboxYes_png;
 		
 		private static var buttonNo:Class = checkboxNo_png;
-		
+	
+        
 		public function GreenMark(onClick:Function)
 		{
 			
@@ -27,7 +29,8 @@ package protanki.launcher.controls.checkboxs
 			textField.defaultTextFormat.font = MakeUp.getFont(locale);
 			textField.text = "UNLOCKED FPS";
 			textFieldToCenter();
-			
+		
+		 
 			textField.textColor = 16777215;
 		}
 		
