@@ -2953,29 +2953,29 @@
             "name": "skybox2_6",
             "src": "skyboxes/skybox2/05.jpg"
         },
-		{
-            "name": "skybox18_1",
-            "src": "skyboxes/skybox18/04.jpg"
+			{
+            "name": "skybox5_1",
+            "src": "skyboxes/skybox5/04.jpg"
         },
         {
-            "name": "skybox18_2",
-            "src": "skyboxes/skybox18/02.jpg"
+            "name": "skybox5_2",
+            "src": "skyboxes/skybox5/02.jpg"
         },
         {
-            "name": "skybox18_3",
-            "src": "skyboxes/skybox18/03.jpg"
+            "name": "skybox5_3",
+            "src": "skyboxes/skybox5/03.jpg"
         },
         {
-            "name": "skybox18_4",
-            "src": "skyboxes/skybox18/01.jpg"
+            "name": "skybox5_4",
+            "src": "skyboxes/skybox5/01.jpg"
         },
         {
-            "name": "skybox18_5",
-            "src": "skyboxes/skybox18/06.jpg"
+            "name": "skybox5_5",
+            "src": "skyboxes/skybox5/06.jpg"
         },
         {
-            "name": "skybox18_6",
-            "src": "skyboxes/skybox18/05.jpg"
+            "name": "skybox5_6",
+            "src": "skyboxes/skybox5/05.jpg"
         },
 		{
             "name": "sponsor2_m0",
