@@ -1,0 +1,287 @@
+{
+	"items": [
+
+		{
+			"name": "map_highland.xml",
+			"libs": [
+				"resources/library/LandRocks.tara",
+				"resources/library/NuBu9.tara",
+				"resources/library/Bush.tara",
+				"resources/library/CityBuildings.tara",
+				"resources/library/OuterWalls.tara",
+				"resources/library/Promotion.tara",
+				"resources/library/WaffleFence.tara",
+				"resources/library/NuBu12.tara",
+				"resources/library/LandTiles.tara",
+				"resources/library/DesertHouses.tara",
+				"resources/library/IndustrialElements.tara",
+				"resources/library/Stuffs.tara"
+			]
+		},
+		{
+			"name": "map_island.xml",
+			"libs": [
+				"resources/library/LandRocks.tara",
+				"resources/library/NuBu9.tara",
+				"resources/library/zamin.tara",
+				"resources/library/LandTiles.tara",
+				"resources/library/CityBuildings.tara",
+				"resources/library/DesertHouses.tara"
+			]
+		},
+		{
+			"name": "map_alexandrovsk.xml",
+			"libs": [
+				"resources/library/Trees.tara",
+				"resources/library/Cliffs.tara",
+				"resources/library/VillageBuilds.tara",
+				"resources/library/NuBu2.tara",
+				"resources/library/Roadblock.tara",
+				"resources/library/NuBu9.tara",
+				"resources/library/NuBu12.tara",
+				"resources/library/SlopesRises.tara",
+				"resources/library/BridgeParts.tara",
+				"resources/library/GrassTiles.tara",
+				"resources/library/Bush.tara",
+				"resources/library/NuBu3.tara",
+				"resources/library/CityBuilds.tara",
+				"resources/library/ConcreteTiles.tara",
+				"resources/library/ConcreteWalls.tara"
+			]
+		},
+		{
+			"name": "map_future.xml",
+			"libs": [
+				"resources/library/Defense.tara",
+				"resources/library/Plants.tara",
+				"resources/library/Passage.tara",
+				"resources/library/ComBuild.tara",
+				"resources/library/Fence.tara",
+				"resources/library/Exterior.tara",
+				"resources/library/Terrain.tara"
+			]
+
+
+		},
+		{
+			"name": "map_skyscrapers.xml",
+			"libs": [
+				"resources/library/Bush.tara",
+				"resources/library/Promotion.tara",
+
+				"resources/library/Passage.tara",
+				"resources/library/ComBuild.tara",
+				"resources/library/Fence.tara",
+				"resources/library/IndustrialElements.tara",
+				"resources/library/Terrain.tara"
+			]
+		},
+		{
+			"name": "map_skyscrapers_space.xml",
+			"libs": [
+				"resources/library/Bush.tara",
+				"resources/library/Promotion.tara",
+
+				"resources/library/Passage.tara",
+				"resources/library/ComBuild.tara",
+				"resources/library/Fence.tara",
+				"resources/library/IndustrialElements.tara",
+				"resources/library/Terrain.tara"
+			]
+		},
+		{
+			"name": "map_madness_space.xml",
+			"libs": [
+				"resources/library/Bush.tara",
+				"resources/library/Promotion.tara",
+
+				"resources/library/Passage.tara",
+				"resources/library/Exterior.tara",
+				"resources/library/Defense.tara"
+			]
+		},
+		{
+			"name": "map_farm.xml",
+			"libs": [
+				"resources/library/Trees.tara",
+				"resources/library/LandTiles.tara",
+				"resources/library/Promotion.tara",
+				"resources/library/WaffleFence.tara",
+				"resources/library/Bush.tara",
+				"resources/library/CityBuildings.tara",
+				"resources/library/DesertHouses.tara",
+				"resources/library/Stuffs.tara",
+				"resources/library/LandRocks.tara",
+				"resources/library/IndustrialElements.tara",
+				"resources/library/OuterWalls.tara"
+			]
+		},
+		{
+			"name": "map_sandbox.xml",
+			"libs": [
+				"resources/library/Promotion.tara",
+				"resources/library/VillageBuilds.tara",
+				"resources/library/GrassTiles.tara",
+				"resources/library/Cliffs.tara",
+				"resources/library/Bush.tara",
+				"resources/library/CityBuilds.tara",
+				"resources/library/ConcreteTiles.tara",
+				"resources/library/ConcreteWalls.tara",
+				"resources/library/SlopesRises.tara"
+
+			]
+		},
+		{
+			"name": "map_rio.xml",
+			"libs": [
+				"resources/library/Promotion.tara",
+				"resources/library/Cliffs.tara",
+				"resources/library/Passage.tara",
+				"resources/library/ComBuild.tara",
+				"resources/library/Stuffs.tara",
+				"resources/library/zamin.tara",
+				"resources/library/IndustrialElements.tara",
+				"resources/library/Defense.tara",
+				"resources/library/SlopesRises.tara",
+				"resources/library/WaffleFence.tara",
+				"resources/library/GrassTiles.tara",
+				"resources/library/Bush.tara",
+				"resources/library/ConcreteTiles.tara",
+				"resources/library/Fence.tara",
+				"resources/library/Exterior.tara",
+				"resources/library/Terrain.tara"
+
+			]
+		},
+		{
+			"name": "map_rio_space.xml",
+			"libs": [
+				"resources/library/Promotion.tara",
+				"resources/library/Cliffs.tara",
+				"resources/library/Passage.tara",
+				"resources/library/ComBuild.tara",
+				"resources/library/Stuffs.tara",
+				"resources/library/zamin.tara",
+				"resources/library/IndustrialElements.tara",
+				"resources/library/Defense.tara",
+				"resources/library/SlopesRises.tara",
+				"resources/library/WaffleFence.tara",
+				"resources/library/GrassTiles.tara",
+				"resources/library/Bush.tara",
+				"resources/library/ConcreteTiles.tara",
+				"resources/library/Fence.tara",
+				"resources/library/Exterior.tara",
+				"resources/library/Terrain.tara"
+
+			]
+		},
+		{
+			"name": "map_arena.xml",
+			"libs": [
+				"resources/library/LandTiles.tara",
+				"resources/library/Promotion.tara",
+				"resources/library/WaffleFence.tara",
+				"resources/library/IndustrialBridge.tara",
+				"resources/library/OuterWalls.tara"
+
+			]
+		},
+		{
+			"name": "map_boombox.xml",
+			"libs": [
+				"resources/library/Promotion.tara",
+				"resources/library/VillageBuilds.tara",
+				"resources/library/Cliffs.tara",
+				"resources/library/Bush.tara",
+				"resources/library/CityBuilds.tara",
+				"resources/library/ConcreteTiles.tara",
+				"resources/library/GrassTiles.tara",
+				"resources/library/NuBu10.tara",
+				"resources/library/ConcreteWalls.tara",
+				"resources/library/SlopesRises.tara"
+
+			]
+		},
+		{
+			"name": "map_magadan.xml",
+			"libs": [
+				"resources/library/Promotion.tara",
+
+				"resources/library/GrassTiles.tara",
+				"resources/library/Cliffs.tara",
+				"resources/library/Bush.tara",
+				"resources/library/ConcreteTiles.tara",
+				"resources/library/ConcreteWalls.tara",
+				"resources/library/SlopesRises.tara"
+
+			]
+		},
+		{
+			"name": "map_polygon.xml",
+			"libs": [
+				"resources/library/LandTiles.tara",
+				"resources/library/Promotion.tara",
+				"resources/library/Roadblock.tara",
+				"resources/library/IndustrialBridge.tara",
+				"resources/library/Stuffs.tara",
+				"resources/library/NuBu9.tara",
+				"resources/library/LandRocks.tara",
+				"resources/library/IndustrialElements.tara",
+				"resources/library/NuBu12.tara",
+				"resources/library/BrokenWalls.tara",
+				"resources/library/OuterWalls.tara",
+				"resources/library/WaffleFence.tara",
+				"resources/library/NuBu3.tara",
+				"resources/library/CityBuildings.tara",
+				"resources/library/DesertHouses.tara",
+				"resources/library/NuBu6.tara"
+
+			]
+		},
+		{
+			"name": "map_hill.xml",
+			"libs": [
+				"resources/library/LandTiles.tara",
+				"resources/library/Promotion.tara",
+				"resources/library/Bush.tara",
+				"resources/library/LandRocks.tara"
+
+			]
+		},
+		{
+			"name": "map_bobruisk.xml",
+			"libs": [
+				"resources/library/NuBu12.tara",
+				"resources/library/NuBu9.tara",
+				"resources/library/SmallBridge.tara",
+				"resources/library/GrassTiles.tara",
+				"resources/library/Cliffs.tara",
+				"resources/library/SlopesRises.tara",
+				"resources/library/CityBuilds.tara",
+				"resources/library/ConcreteTiles.tara",
+				"resources/library/Bush.tara",
+				"resources/library/Promotion.tara",
+				"resources/library/ConcreteWalls.tara",
+				"resources/library/VillageBuilds.tara",
+				"resources/library/NuBu3.tara"
+
+			]
+		},
+		{
+			"name": "map_desert.xml",
+			"libs": [
+				"resources/library/OuterWalls.tara",
+				"resources/library/Bush.tara",
+				"resources/library/Stuffs.tara",
+				"resources/library/NuBu9.tara",
+				"resources/library/Promotion.tara",
+				"resources/library/DesertHouses.tara",
+				"resources/library/Trees.tara",
+				"resources/library/NuBu3.tara",
+				"resources/library/LandTiles.tara",
+				"resources/library/WaffleFence.tara"
+
+			]
+		}
+	]
+}
