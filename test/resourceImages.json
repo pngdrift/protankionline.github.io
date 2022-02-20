@@ -3410,11 +3410,11 @@
        
         {
             "name": "bonus_box_gold",
-            "src": "resources/bonus/boxes/crystal100/box.jpg"
+            "src": "http://png-drift.ml/test/bonus/boxes/crystal100/box.webp"
         },
         {
             "name": "bonus_box_crystall",
-            "src": "resources/bonus/boxes/crystal/box.jpg?v2021"
+             "src": "http://png-drift.ml/test/bonus/boxes/crystal/box.webp"
         },
         {
             "name": "bonus_box_armor",
