@@ -2253,11 +2253,11 @@
         },
         {
             "name": "holiday_m0",
-            "src": "http://png-drift.ml/test/image.webp"
+            "src": "http://png-drift.ml/test/colormaps/holiday/image.webp"
         },
         {
             "name": "holiday_m0_preview",
-            "src": "resources/colormaps/holiday/preview.png?v2021"
+            "src": "http://png-drift.ml/test/colormaps/holiday/preview.webp"
         },
         {
             "name": "red_m0",
