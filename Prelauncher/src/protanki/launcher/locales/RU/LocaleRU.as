@@ -14,7 +14,7 @@ package protanki.launcher.locales.RU
 			name = "ru";
 			playText = "ИГРАТЬ";
 			exitText = "ВЫХОД";
-			partners.push(PartnerLogo.GITHUB, "https://github.com/protankionline/protankionline.github.io");
+		//	partners.push(PartnerLogo.GITHUB, "https://github.com/protankionline/protankionline.github.io");
 			
 			partners.push(PartnerLogo.VK, "https://vk.com/protanki_official");
 			partners.push(PartnerLogo.YOUTUBE, "https://www.youtube.com/channel/UCvx5X0ibv6zAartWU_JyTsA");
