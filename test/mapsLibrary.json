@@ -296,5 +296,18 @@
 				"resources/library/CityBuilds.tara"
 			]
 		}
+				{
+			"name": "map_bridge.xml",
+			"libs": [
+				"resources/library/ConcreteTiles.tara",
+				"resources/library/Bush.tara",
+				"resources/library/Promotion.tara",
+				"resources/library/GrassTiles.tara",
+				"resources/library/ConcreteWalls.tara",
+				"resources/library/Cliffs.tara",
+				"resources/library/SlopesRises.tara",
+				"resources/library/VillageBuilds.tara"
+			]
+		}
 	]
 }
