@@ -2152,12 +2152,12 @@
             "src": "resources/colormaps/gladiator_2/preview.png"
         },
         {
-            "name": "hulk_m0",
-            "src": "resources/colormaps/hulk/image.jpg"
+            "name": "godmode_m0",
+            "src": "resources/colormaps/godmode/image.jpg"
         },
         {
-            "name": "hulk_m0_preview",
-            "src": "resources/colormaps/hulk/preview.png"
+            "name": "godmode_m0_preview",
+            "src": "resources/colormaps/godmode/preview.png"
         },
         {
             "name": "anubis_m0",
