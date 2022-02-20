@@ -3822,7 +3822,7 @@
         },
 		{
             "name": "map_silence_space_preview",
-            "src": "resources/maps/map_silence_space_preview.jpg?1"
+            "src": "resources/maps/space_preview.jpg?1"
         },
 		{
             "name": "map_silence_moon_preview",

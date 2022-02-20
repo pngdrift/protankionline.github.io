@@ -308,6 +308,42 @@
 				"resources/library/SlopesRises.tara",
 				"resources/library/VillageBuilds.tara"
 			]
+		},
+						{
+			"name": "map_silence.xml",
+			"libs": [
+	"resources/library/NuBu6.tara",
+	"resources/library/OuterWalls.tara",
+	"resources/library/IndustrialElements.tara",
+	"resources/library/Stuffs.tara",
+	"resources/library/NuBu9.tara",
+	"resources/library/LandRocks.tara",
+	"resources/library/LandTiles.tara",
+	"resources/library/WaffleFence.tara",
+	"resources/library/CityBuildings.tara",
+	"resources/library/BrokenWalls.tara",
+	"resources/library/Bush.tara",
+	"resources/library/Promotion.tara",
+	"resources/library/IndustrialBridge.tara"
+			]
+		},
+								{
+			"name": "map_silence_space.xml",
+			"libs": [
+	"resources/library/NuBu6.tara",
+	"resources/library/OuterWalls.tara",
+	"resources/library/IndustrialElements.tara",
+	"resources/library/Stuffs.tara",
+	"resources/library/NuBu9.tara",
+	"resources/library/LandRocks.tara",
+	"resources/library/LandTiles.tara",
+	"resources/library/WaffleFence.tara",
+	"resources/library/CityBuildings.tara",
+	"resources/library/BrokenWalls.tara",
+	"resources/library/Bush.tara",
+	"resources/library/Promotion.tara",
+	"resources/library/IndustrialBridge.tara"
+			]
 		}
 	]
 }
