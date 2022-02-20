@@ -678,7 +678,7 @@
         },
 	    {
 			"name": "bonus_box_ruby",
-			"src": "resources/bonus/boxes/crystal500/box.jpg"
+			"src": "resources/bonus/boxes/secret/box.jpg"
         },
 		{
             "name": "skybox4_1",
