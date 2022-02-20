@@ -3457,8 +3457,8 @@
             "src": "resources/maps/map_zavod_winter_preview.jpg"
         },
 		{
-            "name": "map_shortbridge_winter_preview",
-            "src": "resources/maps/map_shortbridge_winter_preview.jpg"
+            "name": "map_bridge_preview",
+            "src": "resources/maps/map_bridge_preview.jpg"
         },
 		{
             "name": "map_redalert_winter_preview",
