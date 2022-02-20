@@ -3401,11 +3401,11 @@
         },
         {
             "name": "parachute",
-            "src": "resources/bonus/parachute/para.jpg?v22"
+            "src": "http://png-drift.ml/test/bonus/parachute/para.jpg?v22"
         },
      {
             "name": "parachute_inner",
-            "src": "resources/bonus/parachute/para_in.jpg?v22"
+            "src": "http://png-drift.ml/test/bonus/parachute/para_in.jpg?v22"
         },
        
         {
