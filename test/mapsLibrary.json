@@ -295,7 +295,7 @@
 				"resources/library/SlopesRises.tara",
 				"resources/library/CityBuilds.tara"
 			]
-		}
+		},
 				{
 			"name": "map_bridge.xml",
 			"libs": [
