@@ -930,11 +930,11 @@
         },
         {
             "name": "flagBlue",
-            "src": "resources/ctf/flag_blue.png?v225021"
+            "src": "http://png-drift.ml/test/ctf/flag_blue.webp"
         },
         {
             "name": "flagRed",
-            "src": "resources/ctf/flag_red.png?v225021"
+            "src": "http://png-drift.ml/test/ctf/flag_red.webp"
         },
         {
             "name": "explosionTexture",
